@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\!MY\\GitHub\\C-sharp\\Diploma\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1915E05-D310-4F15-9DEA-7DE9EE1AC93A}|\u0421\u0430\u043B\u043E\u043D\\\u0421\u0430\u043B\u043E\u043D.csproj|d:\\!my\\github\\c-sharp\\diploma\\\u0441\u0430\u043B\u043E\u043D\\\u043E\u0442\u0447\u0435\u0442\u044B.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F1915E05-D310-4F15-9DEA-7DE9EE1AC93A}|\u0421\u0430\u043B\u043E\u043D\\\u0421\u0430\u043B\u043E\u043D.csproj|solutionrelative:\u0441\u0430\u043B\u043E\u043D\\\u043E\u0442\u0447\u0435\u0442\u044B.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u041E\u0442\u0447\u0435\u0442\u044B.cs [Design]",
+              "DocumentMoniker": "D:\\!MY\\GitHub\\C-sharp\\Diploma\\\u0421\u0430\u043B\u043E\u043D\\\u041E\u0442\u0447\u0435\u0442\u044B.cs",
+              "RelativeDocumentMoniker": "\u0421\u0430\u043B\u043E\u043D\\\u041E\u0442\u0447\u0435\u0442\u044B.cs",
+              "ToolTip": "D:\\!MY\\GitHub\\C-sharp\\Diploma\\\u0421\u0430\u043B\u043E\u043D\\\u041E\u0442\u0447\u0435\u0442\u044B.cs [Design]",
+              "RelativeToolTip": "\u0421\u0430\u043B\u043E\u043D\\\u041E\u0442\u0447\u0435\u0442\u044B.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T18:13:08.004Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

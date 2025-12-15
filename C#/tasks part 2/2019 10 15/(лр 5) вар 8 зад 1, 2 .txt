@@ -1,0 +1,58 @@
+using System;
+
+namespace ConsoleApp28
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random Rand = new Random();
+            const int num = 10;
+            int[] a = new int[num];
+            int Min = 0, InMin = 0, Otr1 = 0, Otr2 = 0, InOtr1 = 0, InOtr2 = 0, Sum = 0;
+            for (int i = 0; i < a.Length; i++)
+            {
+                a[i] = Rand.Next(-9, 10);
+                Console.Write(a[i] + " ");
+            }
+            Console.WriteLine();
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] < Min)
+                {
+                    Min = a[i];
+                    InMin = i;
+                  //  break;
+                }
+            }
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] < Otr1 & a[i] < 0)
+                {
+                    Otr1 = a[i];
+                    InOtr1 = i;
+                    break;
+                }
+            }
+
+            for (int i = InOtr1+1; i < a.Length; i++)
+            {
+                if (a[i] < Otr2 & a[i] < 0)
+                {
+                    Otr2 = a[i];
+                    InOtr2 = i;
+                    break;
+                }
+            }
+            for (int i = InOtr1+1; i < InOtr2; i++)
+            {
+                Sum += a[i];
+            }
+            Console.WriteLine("Индекс минимального числа (и оно само): " + InMin + " (" + Min + ")");
+            Console.WriteLine("Индекс первого отрицителього числа (и оно само): " + InOtr1 + " (" + Otr1 + ")");
+            Console.WriteLine("Индекс второго отрицителього числа (и оно само): " + InOtr2 + " (" + Otr2 + ")");
+            Console.WriteLine("Сумма чисел между ними: " + Sum);
+            Console.ReadKey();
+        }
+    }
+}

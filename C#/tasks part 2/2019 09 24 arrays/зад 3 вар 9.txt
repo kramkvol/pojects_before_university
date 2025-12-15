@@ -1,0 +1,41 @@
+using System;
+namespace ConsoleApplication1
+{
+    class Class1
+    {static void Selection(char[] a)
+        {
+            char x;
+                int k;
+            for (int i = 0; i < a.Length - 1; i++)
+            {
+                x= a[i]; k= i;
+                for (int j = i + 1; j < a.Length; j++)
+                    if (x > a[j])
+                    {
+                        k = j; x = a[j];
+
+                    }
+                a[k] = a[i]; a[i] = x;
+                
+            }
+        }
+
+        static void Main()
+        {
+            char[] simbols = "hellowor".ToCharArray();
+            Selection(simbols);
+            int temp = 0;
+            for (int i = 0; i < simbols.Length; i++)
+            {
+                if (temp > 2)
+                {
+                    Console.WriteLine(Environment.NewLine);
+                    temp = 0;
+            	}
+                    Console.Write($"{simbols[i],3}");
+                    temp++;
+            }
+            Console.ReadKey();
+        }
+    }
+}

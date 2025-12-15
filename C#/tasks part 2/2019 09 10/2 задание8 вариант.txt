@@ -1,0 +1,104 @@
+using System;
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int mounth;
+            int day;
+            Console.WriteLine("1) ÿíâàğü");
+            Console.WriteLine("2) ôåâğàëü");
+            Console.WriteLine("3) ìàğò");
+            Console.WriteLine("4) àïğåëü");
+            Console.WriteLine("5) ìàé");
+            Console.WriteLine("6) èşíü");
+            Console.WriteLine("7) èşëü");
+            Console.WriteLine("8) àâãóñò");
+            Console.WriteLine("9) ñåíòÿáğü");
+            Console.WriteLine("10) îêğÿáğü");
+            Console.WriteLine("11) íîÿáğü");
+            Console.WriteLine("12) äåêàáğü");
+            Console.WriteLine("Ââåäèòå íîìåğ ìåñÿöà");
+            mounth = int.Parse(Console.ReadLine());
+
+            switch (mounth)
+            {
+                case 1:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 1 && day <= 19) { Console.WriteLine("Êîçåğîã"); }
+                    if (day >= 20 && day<= 31) { Console.WriteLine("Âîäîëåé"); }
+                    break;
+                case 2:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 1 && day <= 18) { Console.WriteLine("Âîäîëåé"); }
+                    if (day >= 19 && day <= 31) { Console.WriteLine("Ğûáû"); }
+                    break;
+                case 3:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 1 && day <= 20) { Console.WriteLine("Ğûáû"); }
+                    if (day >= 21 && day <= 31) { Console.WriteLine("Îâåí"); }
+                    break;
+                case 4:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 1 && day <= 19) { Console.WriteLine("Îâåí"); }
+                    if (day >= 20 && day <= 31) { Console.WriteLine("Òåëåö"); }
+                    break;
+                case 5:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 21 && day <= 20 ) { Console.WriteLine("Òåëåö"); }
+                    if (day >= 21 && day <= 31) { Console.WriteLine("Áëèçíåöû"); }
+                    break;
+                case 6:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 1 && day <= 21) { Console.WriteLine("Áëèçíåöû");}
+                    if (day >= 22 && day <= 31) { Console.WriteLine("Ğàê");}
+                    break;
+                case 7:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 1 && day <= 22 ) { Console.WriteLine("Ğàê"); }
+                    if (day >= 23 && day <= 31) { Console.WriteLine("Ëåâ"); }
+                    break;
+                case 8:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 1 && day <=22 ) { Console.WriteLine("Ëåâ"); }
+                    if (day >= 23 && day <= 31) { Console.WriteLine("Äåâà"); }
+                    break;
+                case 9:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 1 && day <= 22) { Console.WriteLine("Äåâà"); }
+                    if (day >= 23 && day <= 31) { Console.WriteLine("Âåñû"); }
+                    break;
+                case 10:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 1 && day <= 22) { Console.WriteLine("Âåñû"); }
+                    if (day >= 23 && day <= 31) { Console.WriteLine("Ñêîğïèîí"); }
+                    break;
+
+                case 11:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 1 && day <= 22) { Console.WriteLine("Ñêîğïèîí"); }
+                    if (day >= 23 && day <= 31) { Console.WriteLine("Ñòğåëåö"); }
+                    break;
+                case 12:
+                    Console.WriteLine("Ââåäèòå ÷èñëî ìåñÿöà");
+                    day = int.Parse(Console.ReadLine());
+                    if (day >= 1 && day <= 21) { Console.WriteLine("Ñòğåëåö"); }
+                    if (day >= 22 && day <= 31) { Console.WriteLine("Êîçåğîã"); }
+                    break;
+            }
+            Console.ReadKey();
+        }
+    }
+}

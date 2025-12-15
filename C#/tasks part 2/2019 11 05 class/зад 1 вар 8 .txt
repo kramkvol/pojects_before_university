@@ -1,0 +1,141 @@
+using System;
+
+namespace ConsoleApplication1
+{
+    class ChemicaElelement
+    {
+        public string ion;
+        public double AtomCore;
+        public double Proton;
+        public double Neytron;
+        public double Electron;
+        public int num_in_table;
+        public double AtomM;
+        public int valentnost;
+
+        public ChemicaElelement ()
+        {
+            this.ion = "NoName";
+            this.AtomCore = 0;
+            this.Electron = 0;
+            this.Neytron = 0;
+            this.Proton = 0;
+            this.AtomM = 0;
+        }
+        public ChemicaElelement (double AtomCore, double Proton, double Neytron, double Electron)
+        {
+            this.AtomCore = AtomCore;
+            this.Electron = Electron;
+            this.Neytron = Neytron;
+            this.Proton = Proton;
+            //this.valentnost = valentnost;
+        }
+        public string AnName
+        {
+            get { return ion; }
+            set { ion = value; }
+        }
+        public double A_AtomCore
+        {
+            get { return AtomCore; }
+            set { AtomCore = value; }
+        }
+        public double A_Electron
+        {
+            get { return Electron; }
+            set { Electron = value; }
+        }
+        public double A_Neytron
+        {
+            get { return Neytron; }
+            set { Neytron = value; }
+        }
+        public double A_Proton
+        {
+            get { return Proton; }
+            set { Proton = value; }
+        }
+            
+        public double Result1 (int num_in_table)
+        {
+            double AtomCore = num_in_table;
+            return AtomCore;
+        }
+        public double Result2 (int num_in_table)
+        {
+            double Electon = 0 - num_in_table;
+            return Electon;
+        }
+        public double Result3(int num_in_table, double AtomM)
+        {
+            double Neytron = AtomM - num_in_table;
+            return Neytron;
+        }
+        public double Result3()
+        {
+            double Neytron = AtomM - num_in_table;
+            return Neytron;
+        }
+        public double Result4(int num_in_table)
+        {
+            double Proton = num_in_table;
+            return Proton;
+        }
+        public void result ()
+        {
+            Console.WriteLine("Введите условное обозначение элемента: ");
+            ion = Console.ReadLine();
+            Console.WriteLine("Введите номер элемента из таблицы Менделеева: ");
+            string buf2 = Console.ReadLine();
+            num_in_table = Convert.ToInt32(buf2);
+            Console.WriteLine("Введите атомную массу элемента из таблицы Менделеева: ");
+            string buf3 = Console.ReadLine();
+            AtomM = Convert.ToDouble(buf3);
+            if (num_in_table > 120)
+            {
+                Console.WriteLine("Элемента с таким номером не существует.");
+            }
+            else
+            {
+                Console.WriteLine("Заряд атома: +" + Result1(num_in_table));
+                Console.WriteLine("Электронов: " + Result2(num_in_table));
+                Console.WriteLine("Нейтронов: " + Result3(num_in_table, AtomM));
+                Console.WriteLine("Протонов: +" + Result4(num_in_table));
+            }
+        }
+    }
+
+    class ChemicalReaction : ChemicaElelement
+    {
+        public ChemicalReaction(string name)
+        {
+            this.ion = "CI";
+            this.valentnost = 1;
+        }
+        public string Name
+        {
+            get { return ion; }
+            set { ion = value; }
+        }
+    }
+    class Res 
+    {
+        static void Main()
+        {
+            Console.WriteLine("*1 элемет*");
+            ChemicaElelement a = new ChemicaElelement();
+            a.result();
+            Console.WriteLine("Взаимодействует ли этот ион с хлором?");
+            if (a.ion != "Ag" && a.ion != "Hg" )
+            {
+                Console.WriteLine("Вещество растворимо");
+            }
+            else
+            {
+                Console.WriteLine("Вещество не растворимо");
+            }
+
+            Console.ReadKey();
+        }
+    }
+}

@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int[] a = new int[30];
+            int i = 0;
+            int value = 1;
+            bool flag;
+            Random rand = new Random();
+
+            Console.WriteLine("Массив правильных ответов: ");
+            for (i = 0; i < a.Length; i++)
+            {
+                a[i] = rand.Next(1, 30);
+                Console.Write(" " + a[i]);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Вопроы, на которые никто не ответил: ");
+            for(value = 1; value <= 30; value++)
+            {
+                flag = false;
+                for (i = 0; i < a.Length; i++)
+                {
+                    if (a[i] == value)
+                    {
+                        flag = true;
+                        break;
+                    }
+         
+                }
+                if(!flag)
+                {
+                    Console.Write(" " + value);
+                }
+            }
+
+            Console.ReadKey();
+        }
+    }
+}

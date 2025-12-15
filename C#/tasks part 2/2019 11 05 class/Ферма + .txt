@@ -1,0 +1,165 @@
+using System;
+using System.Collections.Generic;
+
+namespace ConsoleApplication1
+{
+    class Animal
+    {
+        string name;
+        public string Type { get; set; }
+        protected int child;
+
+        public Animal()
+        {
+            this.name = "Нет данных о имени";
+            this.Type = "Нет данных о типе";
+            this.child = 0;
+        }
+
+        public Animal(string name, string type, int child)
+        {
+            this.name = name;
+            this.Type = type;
+            this.child = child;
+        }
+        public string AnName
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        public  void Children(int change)
+        {
+            AnCild = change;
+        }
+        public virtual int AnCild
+        {
+            get { return child; }
+            set { if (value < 0) child = Math.Abs(value); else child = value; }
+        }
+    }
+
+    class Cow : Animal
+    {
+        double age;
+        public double CowAge
+        {
+            get { return age; }
+            set { age = value; }
+        }
+        public Cow(string name, string type, int child, double age) : base(name, type, child)
+        {
+            this.age = age;
+        }
+        public override int AnCild 
+        {
+            get
+            {
+                return child;
+            }
+            set
+            {
+                Metka: 
+                Console.WriteLine("У коровы появилось потомство? 1 - да, 2 - нет. ");
+                string str = Console.ReadLine();
+                int num = Convert.ToInt32(str);
+                switch (num)
+                {
+                    case 1:
+
+                        Console.WriteLine("Введите количество ");
+                        string buf = Console.ReadLine();
+                        child = Convert.ToInt32(buf);
+                        break;
+                    case 2:
+                        child = value;
+                        break;
+                    default:
+                        Console.WriteLine("Такого варианта нет. Выберете ещё раз.");
+                        goto Metka;
+
+                }
+            }
+        }
+        public void Password()
+        {
+            Console.WriteLine("Имя: {0}, Тип животного: {1}, Дети: {2}, Возраст: {3} ", AnName, Type, child, age);
+        }
+    }
+
+    class Rabbit : Animal
+    {
+        double age;
+        public double CowAge
+        {
+            get { return age; }
+            set { age = value; }
+        }
+        public Rabbit(string name, string type, int child, double age) : base(name, type, child)
+        {
+            this.age = age;
+        }
+        public override int AnCild
+        {
+            get
+            {
+                return child;
+            }
+            set
+            {
+                Metka:
+                Console.WriteLine("У крольчихи появилось потомство? 1 - да, 2 - нет. ");
+                string str = Console.ReadLine();
+                int num = Convert.ToInt32(str);
+                switch (num)
+                {
+                    case 1:
+
+                        Console.WriteLine("Введите количество ");
+                        string buf = Console.ReadLine();
+                        child = Convert.ToInt32(buf);
+                        break;
+                    case 2:
+                        child = value;
+                        break;
+                    default:
+                        Console.WriteLine("Такого варианта нет. Выберете ещё раз.");
+                        goto Metka;
+                }
+            }
+        }
+        public void Password()
+        {
+            Console.WriteLine("Имя: {0}, Тип животного: {1}, Дети: {2}, Возраст: {3} ", AnName, Type, child, age);
+        }
+    }
+    class Class1
+    {
+        static void Main()
+        {
+            List<Animal> LA = new List<Animal>();
+            Cow cow1 = new Cow("Милка", "Корова", 30, 4.5);
+            Animal a = cow1;
+            Rabbit rabbit1 = new Rabbit("Маня", "Крольчиха", 10, 3);
+            LA.Add(new Rabbit("puppy", "rabbit", 0, 1));
+            LA.Add(cow1);
+            LA.Add(a);
+            LA.Add(rabbit1);
+            Console.WriteLine("*********");
+            foreach (var x in LA)
+            {
+                if (x is Cow) ((Cow)x).Password();
+                if (x is Rabbit) (x as Rabbit).Password();
+            }
+            Console.WriteLine("**********");
+
+
+            a.Children(0);
+            if (a is Cow) ((Cow)a).Password();
+
+            Animal b = rabbit1;
+            b.Children(0);
+            if (b is Rabbit) ((Rabbit)b).Password();
+            Console.ReadKey();
+        }
+    }
+}

@@ -1,0 +1,98 @@
+using System;
+
+namespace ConsoleApp29
+{
+    class Matrix
+    {
+        int[,] a;
+        public int Rows => a.GetLength(0);// св-во для чтения сжатое до выражения 
+        public int Cols { get { return a.GetLength(1); } } // св-во для чтения согл синтаксису
+        public Matrix(int rows,int cols)
+        {
+            a = new int[rows, cols];
+            CreateByRandom();
+        }
+        void CreateByRandom()
+        {
+            Random rand = new Random();
+            for (int r = 0; r < a.GetLength(0); r++)
+            {
+                for (int c = 0; c < a.GetLength(1); c++)
+                {
+                    a[r, c] = rand.Next(-7, 7);
+                }
+            }
+        }
+        public void PrintArr()
+        {
+            
+            for (int r = 0; r < a.GetLength(0); r++)
+            {
+                for (int c = 0; c < a.GetLength(1); c++)
+                {
+                    Console.Write($"{a[r, c],6}");
+                }
+                Console.WriteLine();
+            }
+        }
+        public void Sort()
+        {
+            int[] b = new int[Cols];
+            for (int i = 0; i < b.Length; i++)
+            {
+                b[i] = SumColAbs(i);
+            }
+
+            for(int i = 0; i < b.Length; i++)
+            {
+                for(int j = 0; j < b.Length; j++)
+                {
+                    int temp = 0;
+                    for (int r = 0; r < a.GetLength(0); r++)
+                    {
+                        if (b[i] < b[j])
+                        {
+                            temp = b[i];
+                            b[i] = b[j];
+                            b[j] = temp;
+                            temp = a[r, i];
+                            a[r, i] = a[r, j];
+                            a[r, j] = temp;
+                        }
+                    }
+                }
+            }
+
+        }
+       public int SumColAbs(int c)
+        {
+            {
+               int  sum = 0;
+                for (int r = 0; r < a.GetLength(0); r++)
+                {
+                    sum += Math.Abs(a[r, c]);
+                }
+                return sum;
+            }
+        }
+    }
+}
+using System;
+
+namespace ConsoleApp18
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ConsoleApp29.Matrix mtx = new ConsoleApp29.Matrix(3,4);
+            mtx.PrintArr();
+            Console.WriteLine("Сумма модулей чисел в столбцах: ");
+            for(int i=0;i<mtx.Cols;i++)
+                Console.WriteLine($"coloumn {i+1,-8} {mtx.SumColAbs(i)}");
+            mtx.Sort();
+            mtx.PrintArr();
+            Console.ReadKey();
+        }
+    }
+}

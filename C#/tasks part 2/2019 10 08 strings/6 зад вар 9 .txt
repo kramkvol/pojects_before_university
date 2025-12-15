@@ -1,0 +1,64 @@
+using System;
+namespace ConsoleApp25
+{
+    class Program
+    {
+        const int size = 5;
+        static int[] S1 = new int[size];
+        static int[] S2 = new int[size];
+        static int[] S3 = new int[size];
+        static int[] S4 = new int[size];
+        static void PrintArray ()
+        {
+            Random rand = new Random();
+            Console.Write("Ученик 1: ");
+            int count1 = 0;
+            for (int i = 0; i < size; i++)
+            {
+                S1[i] = rand.Next(0, 10);
+                count1 += S1[i];
+                Console.Write(S1[i] + "*");
+            }
+            Console.Write( " | " + count1/size);
+
+            Console.WriteLine();
+            Console.Write("Ученик 2: ");
+            int count2 = 0;
+            for (int i = 0; i < size; i++)
+            {
+                S2[i] = rand.Next(0, 10);
+                count2 += S2[i];
+                Console.Write(S2[i] + "*");
+            }
+            Console.Write(" | " + count2 / size);
+
+            Console.WriteLine();
+            Console.Write("Ученик 3: ");
+            int count3 = 0;
+            for (int i = 0; i < size; i++)
+            {
+                S3[i] = rand.Next(0, 10);
+                count3 += S3[i];
+                Console.Write(S3[i] + "*");
+            }
+            Console.Write(" | " + count3 / size);
+
+            Console.WriteLine();
+            Console.Write("Ученик 4: ");
+            int count4 = 0;
+            for (int i = 0; i < size; i++)
+            {
+                S4[i] = rand.Next(0, 10);
+                count4 += S4[i];
+                Console.Write(S4[i] + "*");
+            }
+            Console.Write(" | " + count4 / size);
+        }
+        static void Main(string[] args)
+        {
+            PrintArray();
+            
+            Console.ReadKey();
+        }
+    }
+}

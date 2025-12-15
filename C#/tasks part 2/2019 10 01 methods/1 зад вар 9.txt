@@ -1,0 +1,58 @@
+using System;
+namespace ConsoleApplication1
+{
+    class Class1
+    {
+        static public void ConvertFrom(string coorX, string coorY, out double x, out double y)
+        {
+            Console.WriteLine("x = " + coorX);
+            double.TryParse(coorX, out x);
+            Console.WriteLine("y = " + coorY);
+            double.TryParse(coorY, out y);
+        }
+        static public void ConvertFromR(string rad, out double r)
+        {
+            Console.WriteLine("Радиус = " + rad);
+            double.TryParse(rad, out r);
+        }
+
+        public static double radius, x1, y1, x2, y2, x3, y3;
+        public const int X0 = 0;
+        public const int Y0 = 0;
+
+        static void Main()
+        {
+            Console.WriteLine("Введите координаты первой точки (x,y): ");
+            ConvertFrom(Console.ReadLine(), Console.ReadLine(), out x1, out y1);
+
+            Console.WriteLine("Введите координаты второй точки (x,y): ");
+            ConvertFrom(Console.ReadLine(), Console.ReadLine(), out x2, out y2);
+
+            Console.WriteLine("Введите координаты второй точки (x,y): ");
+            ConvertFrom(Console.ReadLine(), Console.ReadLine(), out x3, out y3);
+
+            Console.WriteLine("Введите радиус: ");
+            ConvertFromR(Console.ReadLine(), out radius);
+
+            double UrOkr1 = (Math.Pow((x1 - X0), 2) + Math.Pow((y1 - Y0), 2));
+            double UrOkr2 = (Math.Pow((x2 - X0), 2) + Math.Pow((y2 - Y0), 2));
+            double UrOkr3 = (Math.Pow((x3 - X0), 2) + Math.Pow((y3 - Y0), 2));
+
+            double radius2 = Math.Pow(radius, 2);
+
+            if (UrOkr1 == radius2) { Console.WriteLine(" Точка [" + x1 + "," + y1 + "] принадлежит окружности."); }
+            else
+            { Console.WriteLine(" Точка [" + x1 + "," + y1 + "] не принадлежит окружности."); }
+
+            if (UrOkr2 == radius2) { Console.WriteLine(" Точка [" + x2 + "," + y2 + "] принадлежит окружности."); }
+            else
+            { Console.WriteLine(" Точка [" + x2 + "," + y2 + "] не принадлежит окружности."); }
+
+            if (UrOkr3 == radius2) { Console.WriteLine(" Точка [" + x3 + "," + y3 + "] принадлежит окружности."); }
+            else
+            { Console.WriteLine(" Точка [" + x3 + "," + y3 + "] не принадлежит окружности."); }
+
+            Console.ReadKey();
+        }
+    }
+}

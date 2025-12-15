@@ -1,0 +1,66 @@
+using System;
+namespace ConsoleApp25
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string text = " знаю, что придумать. Пусть это будет текст!";
+            char[] a = text.ToCharArray();
+            char[] b = { };
+            Console.WriteLine("Текст: ");
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.Write(a[i]);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Всего слов: ");
+            int count = 0;
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (a[i] == ' ')
+                { count++; }
+            }
+            Console.WriteLine(count);
+            Console.WriteLine("Ввведите число букв: ");
+            string buf = Console.ReadLine();
+            int d = Convert.ToInt32(buf);
+            var str = " знаю, что придумать. Пусть это будет текст!";
+            char[] sep = new char[] { ' ', ',' };
+            string[] s = str.Split(sep, StringSplitOptions.RemoveEmptyEntries);
+            string min_word = str;
+            Console.WriteLine("Слова, число букв которых меньше заданного числа букв: ");
+            foreach (var x in s)
+            {
+                if (x.Length < d)
+                {
+                    Console.Write(x + " ");
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("Без которких слов: ");
+            int min = 999999999;
+            foreach (var x in s)
+            {
+                if (min_word.Length > x.Length)
+                {
+                    min_word = x;
+                    min = min_word.Length;
+                }
+            }
+            int temp = 0;
+            foreach (var x in s)
+            {
+                if (min < x.Length)
+                {
+                    Console.Write(x + " ");
+                    temp++;
+                }
+            }
+            Console.WriteLine();
+            double procent = 100 - ((temp * 100) / count);
+            Console.WriteLine("Короткие слова занимают " + procent + "%");
+            Console.ReadKey();
+        }
+    }
+}

@@ -1,0 +1,14 @@
+C:\Users\olya\source\repos\ConsoleApp36\ConsoleApp36\bin\Debug\ConsoleApp36.exe.config
+C:\Users\olya\source\repos\ConsoleApp36\ConsoleApp36\bin\Debug\ConsoleApp36.exe
+C:\Users\olya\source\repos\ConsoleApp36\ConsoleApp36\bin\Debug\ConsoleApp36.pdb
+C:\Users\olya\source\repos\ConsoleApp36\ConsoleApp36\obj\Debug\ConsoleApp36.csprojAssemblyReference.cache
+C:\Users\olya\source\repos\ConsoleApp36\ConsoleApp36\obj\Debug\ConsoleApp36.csproj.CoreCompileInputs.cache
+C:\Users\olya\source\repos\ConsoleApp36\ConsoleApp36\obj\Debug\ConsoleApp36.exe
+C:\Users\olya\source\repos\ConsoleApp36\ConsoleApp36\obj\Debug\ConsoleApp36.pdb
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 19 файлы(1!) +\за 2 вар 8\ConsoleApp36\bin\Debug\ConsoleApp36.exe.config
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 19 файлы(1!) +\за 2 вар 8\ConsoleApp36\bin\Debug\ConsoleApp36.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 19 файлы(1!) +\за 2 вар 8\ConsoleApp36\bin\Debug\ConsoleApp36.pdb
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 19 файлы(1!) +\за 2 вар 8\ConsoleApp36\obj\Debug\ConsoleApp36.csprojAssemblyReference.cache
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 19 файлы(1!) +\за 2 вар 8\ConsoleApp36\obj\Debug\ConsoleApp36.csproj.CoreCompileInputs.cache
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 19 файлы(1!) +\за 2 вар 8\ConsoleApp36\obj\Debug\ConsoleApp36.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 19 файлы(1!) +\за 2 вар 8\ConsoleApp36\obj\Debug\ConsoleApp36.pdb

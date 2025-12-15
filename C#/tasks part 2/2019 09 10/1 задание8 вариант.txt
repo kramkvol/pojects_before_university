@@ -1,0 +1,22 @@
+using System;
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double x;
+            double y;
+            Console.WriteLine("¬ведите первое число: ");
+            x = double.Parse(Console.ReadLine());
+            Console.WriteLine("ѕервое число: " + x);
+            Console.WriteLine("¬ведите второе число: ");
+            y = double.Parse(Console.ReadLine());
+            Console.WriteLine("¬торое число: " + y);
+            if (x > y) { Console.WriteLine("большее число:" + x + "меньшее число:" + y); }
+            if (x < y) { Console.WriteLine("большее число:" + y + "меньшее число:" + x); }
+            if (x == y) { Console.WriteLine("числа равны"); }
+            Console.ReadKey();
+        }
+    }
+}

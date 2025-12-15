@@ -1,0 +1,38 @@
+using System;
+
+namespace ConsoleApp18
+{
+    class Program
+    { 
+        static void Main(string[] args)
+        {
+            Console.WriteLine("¬ведите a ");
+            string buf = Console.ReadLine();
+            double a = Convert.ToDouble(buf);
+            double res = 1;
+            if (a >= 0)
+            {
+                double k = 0;
+                do
+                {
+                    res *= (k + 1) / (k + 2);
+                    k += 2;
+                }
+                while (k <= 16);
+                { Console.WriteLine(Math.Round(res, 3)); }
+            }
+            else
+            {
+                double n = 0;
+                do
+                {
+                    res *= (n + 1);
+                    n += 3;
+                }
+                while (n <= 12);
+                { Console.WriteLine(Math.Round(res, 3)); }
+            }
+            Console.ReadKey();
+        }
+    }
+}

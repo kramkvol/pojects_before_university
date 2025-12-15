@@ -1,0 +1,32 @@
+using System;
+namespace ConsoleApp25
+{
+  class Program
+    {
+        static void Main(string[] args)
+        {
+            string text = "Ничего не могу придумать, чтобы было это было нужное слово. А нет, я при... Придумала!.. ";
+            string tofind = "при";
+            char[] a = text.ToCharArray();
+            char[] b = tofind.ToCharArray();
+            Console.WriteLine("Было: ");
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.Write(a[i]);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Стало: ");
+            for (int i = 0; i < a.Length; i++ )
+            {
+                if (a[i] == b[0] && a[i+1] == b[1] && a[i+2] == b[2])
+                {
+                    a[i] = ' ';
+                    a[i+1] = ' ';
+                    a[i + 2] = ' ';
+                }
+                Console.Write(a[i]);
+            }
+            Console.ReadKey();
+        }
+    }
+}

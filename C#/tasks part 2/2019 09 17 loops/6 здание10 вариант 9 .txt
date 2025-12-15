@@ -1,0 +1,23 @@
+using System;
+namespace ConsoleApp14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите вес гриба: ");
+            string buf = Console.ReadLine();
+            double a = Convert.ToDouble(buf);
+
+            double weight = (a * 40) / 100 + a;
+            Console.WriteLine("Вес гриба через сутки: " + weight);
+
+            double Prirost =  weight - a;
+            Console.WriteLine("За сутки он в на: " + Prirost);
+
+            double kDney = ((a * 2.5) - a) / Prirost;
+            Console.WriteLine("В 2.5 раза гриб вырастет через " + kDney + "дней");
+            Console.ReadKey();
+        }
+    }
+}

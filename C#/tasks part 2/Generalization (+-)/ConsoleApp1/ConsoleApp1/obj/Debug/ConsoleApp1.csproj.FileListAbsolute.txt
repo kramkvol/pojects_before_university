@@ -1,0 +1,6 @@
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\ОБОБЩЕНИЯ ДОДЕЛАТЬ\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\ОБОБЩЕНИЯ ДОДЕЛАТЬ\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\ОБОБЩЕНИЯ ДОДЕЛАТЬ\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\ОБОБЩЕНИЯ ДОДЕЛАТЬ\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\ОБОБЩЕНИЯ ДОДЕЛАТЬ\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\ОБОБЩЕНИЯ ДОДЕЛАТЬ\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

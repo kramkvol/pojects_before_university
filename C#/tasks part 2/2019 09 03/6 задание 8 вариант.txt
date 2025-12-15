@@ -1,0 +1,37 @@
+using System;
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double Y;
+            double X;
+         //   double R; возможно ошибка в задаче
+            Console.WriteLine("Введите координату Х: ");
+            X = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите координату Y: ");
+            Y = double.Parse(Console.ReadLine());
+            // область ограничена тремя линиями
+            // у = -(х*х) + 2
+            // у = 0
+            // у = х (тк угол 45)
+            if (Y <= 0 - (Math.Pow(X, 2) + 2))
+            {
+                if ((X <= 0 && Y <= 0) || (X >= 0 && Y >= 0))
+                {
+                    if(( X<=0 && Y <= X ) || ( X>=0 && Y >= X))
+                    {
+                        Console.WriteLine("Точка принадлежит закрашенной части");
+                        Console.ReadKey();
+                        return;
+                    }
+                }
+            }
+            Console.WriteLine("Точка не принадлежит закрашенной части");
+            Console.ReadKey();
+            return;
+
+        }
+    }
+}

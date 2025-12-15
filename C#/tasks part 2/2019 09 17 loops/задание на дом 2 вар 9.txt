@@ -1,0 +1,30 @@
+using System;
+namespace ConsoleApp14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random rand = new Random();
+            int a = 1;
+            int b = 10;
+            int sum = 0;
+            Console.WriteLine(" Ряд натуральных чисел: ");
+            for (int i = a; i < b; i++)
+            {
+                Console.Write(" " + i);
+            }
+            Console.WriteLine();
+            Console.WriteLine(" Сумма кратых 2 и кратным 5: ");
+            for (int i = a; i < b; i++)
+            {
+                if (i % 2 == 0 | i % 5 == 0)
+                {
+                    sum += i;
+                }
+            }
+            Console.Write(" " + sum);
+            Console.ReadKey();
+        }
+    }
+}

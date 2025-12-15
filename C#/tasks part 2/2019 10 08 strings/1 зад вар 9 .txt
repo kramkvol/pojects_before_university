@@ -1,0 +1,39 @@
+using System;
+
+namespace ConsoleApp18
+{
+    class Program
+    {
+        static string str = "шоколадка ";
+        static char[] a = str.ToCharArray();
+        static void PrintArr()
+        { 
+            for (int i = 0; i < a.Length; i++)
+            {
+                Console.Write(a[i]);
+            }
+        }
+        static void Search()
+        {
+            for (int i = 0; i < a.Length; i++)
+            {
+                for (int j = i + 1; j < a.Length; j++)
+                {
+                    if (a[i] == a[j])
+                    {
+                        Console.Write(" " + a[i]);
+                    }
+                }
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            PrintArr();
+            Console.WriteLine();
+            Console.WriteLine("Ѕуквы, которые повтор€ютс€: ");
+            Search();
+            Console.ReadKey();
+        }
+    }
+}

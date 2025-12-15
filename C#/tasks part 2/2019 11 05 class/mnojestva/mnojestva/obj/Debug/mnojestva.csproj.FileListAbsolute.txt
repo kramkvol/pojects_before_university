@@ -1,0 +1,7 @@
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 05 Классы (1!)\mnojestva\mnojestva\obj\Debug\mnojestva.csprojAssemblyReference.cache
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 05 Классы (1!)\mnojestva\mnojestva\obj\Debug\mnojestva.csproj.CoreCompileInputs.cache
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 05 Классы (1!)\mnojestva\mnojestva\bin\Debug\mnojestva.exe.config
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 05 Классы (1!)\mnojestva\mnojestva\bin\Debug\mnojestva.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 05 Классы (1!)\mnojestva\mnojestva\bin\Debug\mnojestva.pdb
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 05 Классы (1!)\mnojestva\mnojestva\obj\Debug\mnojestva.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 05 Классы (1!)\mnojestva\mnojestva\obj\Debug\mnojestva.pdb

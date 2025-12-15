@@ -1,0 +1,13 @@
+using System;
+namespace ConsoleApp25
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string text = "котёл";
+            Console.WriteLine(text.Contains("кот"));
+            Console.ReadKey();
+        }
+    }
+}

@@ -1,0 +1,39 @@
+using System;
+namespace ConsoleApp25
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string buf = Console.ReadLine();
+            char[] num = buf.ToCharArray();
+            int i = 0;
+            for (i = 0; i < num.Length; i++)
+            {
+                int.Parse(buf);
+                Console.Write(num[i] + " ");
+            }
+            int center = num.Length / 2;
+            Console.WriteLine();
+            if (num[center] == '0')
+            {
+
+                for (i = 0; i < center; i++)
+                {
+                    Console.Write(num[i] + " ");
+                }
+                for (i = center + 1; i < num.Length; i++)
+                {
+                    Console.Write(num[i] + " ");
+                }
+            }
+            if (num[center] != '0')
+            {
+                Console.WriteLine("Середина массива не равна 0 ");
+            }
+            Console.ReadKey();
+        }
+    }
+}   
+
+

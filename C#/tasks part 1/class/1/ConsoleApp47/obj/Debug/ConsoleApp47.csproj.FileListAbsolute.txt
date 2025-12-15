@@ -1,0 +1,21 @@
+C:\Users\olya\source\repos\ConsoleApp47\ConsoleApp47\bin\Debug\ConsoleApp47.exe.config
+C:\Users\olya\source\repos\ConsoleApp47\ConsoleApp47\bin\Debug\ConsoleApp47.exe
+C:\Users\olya\source\repos\ConsoleApp47\ConsoleApp47\bin\Debug\ConsoleApp47.pdb
+C:\Users\olya\source\repos\ConsoleApp47\ConsoleApp47\obj\Debug\ConsoleApp47.csprojAssemblyReference.cache
+C:\Users\olya\source\repos\ConsoleApp47\ConsoleApp47\obj\Debug\ConsoleApp47.csproj.CoreCompileInputs.cache
+C:\Users\olya\source\repos\ConsoleApp47\ConsoleApp47\obj\Debug\ConsoleApp47.exe
+C:\Users\olya\source\repos\ConsoleApp47\ConsoleApp47\obj\Debug\ConsoleApp47.pdb
+C:\Users\olya\Desktop\КПЯП ДОДЕЛАЬТ\ConsoleApp47\bin\Debug\ConsoleApp47.exe.config
+C:\Users\olya\Desktop\КПЯП ДОДЕЛАЬТ\ConsoleApp47\bin\Debug\ConsoleApp47.exe
+C:\Users\olya\Desktop\КПЯП ДОДЕЛАЬТ\ConsoleApp47\bin\Debug\ConsoleApp47.pdb
+C:\Users\olya\Desktop\КПЯП ДОДЕЛАЬТ\ConsoleApp47\obj\Debug\ConsoleApp47.csprojAssemblyReference.cache
+C:\Users\olya\Desktop\КПЯП ДОДЕЛАЬТ\ConsoleApp47\obj\Debug\ConsoleApp47.csproj.CoreCompileInputs.cache
+C:\Users\olya\Desktop\КПЯП ДОДЕЛАЬТ\ConsoleApp47\obj\Debug\ConsoleApp47.exe
+C:\Users\olya\Desktop\КПЯП ДОДЕЛАЬТ\ConsoleApp47\obj\Debug\ConsoleApp47.pdb
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\ЛР 12 сдать\1\ConsoleApp47\bin\Debug\ConsoleApp47.exe.config
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\ЛР 12 сдать\1\ConsoleApp47\bin\Debug\ConsoleApp47.exe
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\ЛР 12 сдать\1\ConsoleApp47\bin\Debug\ConsoleApp47.pdb
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\ЛР 12 сдать\1\ConsoleApp47\obj\Debug\ConsoleApp47.csprojAssemblyReference.cache
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\ЛР 12 сдать\1\ConsoleApp47\obj\Debug\ConsoleApp47.csproj.CoreCompileInputs.cache
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\ЛР 12 сдать\1\ConsoleApp47\obj\Debug\ConsoleApp47.exe
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\ЛР 12 сдать\1\ConsoleApp47\obj\Debug\ConsoleApp47.pdb

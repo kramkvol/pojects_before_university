@@ -1,0 +1,33 @@
+using System;
+
+namespace ConsoleApp18
+{
+    class Program
+    {
+        static int k;
+        static int a;
+        static int factorial(int f)
+        {
+            int factorial = 1;
+            for (int i = 2; i < f; i++)
+            {
+                factorial *= i;
+            }
+            return factorial;
+        }
+        static int result (int t, int u)
+        {
+            int result = factorial(t) * (factorial(u) - t);
+            return result;
+        }
+        static void Main(string[] args)
+        {
+            int k = 4;
+            int a = 5;
+            Console.WriteLine("Факториал k = " + factorial(k));
+            Console.WriteLine("Факториал a = " + factorial(a));
+            Console.WriteLine(" k!(a!-k) = " + result(k, a));
+            Console.ReadKey();
+        }
+    }
+}

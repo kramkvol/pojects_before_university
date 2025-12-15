@@ -1,0 +1,29 @@
+using System;
+namespace ConsoleApp7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string buf;
+            Console.Write("¬ведите N-ый элемет: ");
+            buf = Console.ReadLine();
+            int p = Convert.ToInt32(buf);
+
+            string str;
+            Console.Write("¬ведите x: ");
+            str = Console.ReadLine();
+            int n; double Sn=0,An;
+                double x = Convert.ToDouble(str);
+            for ( n = 1; n < p; n++)
+            {
+
+                 An = Math.Pow((-1), (n + 1)) * (Math.Pow((x - 1), n) / n);
+                 Sn =Sn+An;
+            }
+            Console.WriteLine("S" + n + " = " + Sn);
+            Console.WriteLine(Math.Log(x));
+            Console.ReadKey();
+        }
+    }
+}

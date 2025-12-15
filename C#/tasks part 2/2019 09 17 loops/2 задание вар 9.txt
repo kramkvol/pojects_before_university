@@ -1,0 +1,20 @@
+using System;
+namespace ConsoleApp7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 0;
+            int last = 360;
+            int step = 15;
+            while(x < last)
+            {
+                x += step;
+                double y = Math.Cos(x) + Math.Sin(x);
+                Console.WriteLine("Math.Cos(" + x + ") + " + "Math.Sin(" + x + ") = " + Math.Round(y, 3));
+            }
+            Console.ReadKey();
+        }
+    }
+}

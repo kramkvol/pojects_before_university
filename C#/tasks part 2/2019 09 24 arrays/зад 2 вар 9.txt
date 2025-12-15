@@ -1,0 +1,42 @@
+using System;
+namespace ConsoleApplication1
+{
+    class Class1
+    {
+        static void Main()
+        {
+            int[] a = { - 100, 12, 100, -10, 120};
+            Console.WriteLine("Исходный массив: ");
+            for (int i = 0; i < a.Length; ++i)
+            Console.Write("\t" + a[i]);
+            Console.WriteLine();
+            int max = a[0], min = a[0], num = 0;
+            for (int i = 0; i < a.Length; ++i) // поиск минимального
+            {
+                if (a[i] < min)
+                {
+                    min = a[i];
+                }
+            }
+            Console.WriteLine("Минимальный: " + min);
+            for (int i = 0; i < a.Length; ++i) // поиск максимального
+            {
+                if (a[i] > max)
+                {
+                    max = a[i];
+                }
+            }
+            Console.WriteLine("Максимальный: " + max);
+            min = max = 0;
+            for(int i = 0; i < a.Length; i++)
+            {
+                if (a[i] < a[min]) { min = i;}
+                if (a[i] > a[max]) { max = i; }
+            }
+            num = Math.Abs(min - max) - 1;
+
+            Console.WriteLine("Число элементов между минимальным и максимальным:" + num);
+            Console.ReadKey();
+        }
+    }
+}

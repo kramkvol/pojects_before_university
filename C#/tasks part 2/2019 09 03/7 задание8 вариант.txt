@@ -1,0 +1,29 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           const double E = 2.7;
+           const double PI = 3.14;
+            double x;
+            double y;
+            Console.WriteLine("¬ведите число X");
+            string str = Console.ReadLine();
+            x = Convert.ToInt32(str);
+
+            y = (Math.Pow(Math.Cos(PI * x), 3) +
+                (Math.Pow(Math.Log10(1.0 + x), (1.0 / 4.0))) *
+                (Math.Pow(E, Math.Pow(x, 2)) + Math.Sqrt(1.0 / x) +
+                Math.Cos(Math.Pow(E, x))));
+
+
+            Console.WriteLine("Y = " + y );
+            Console.ReadKey();
+        }
+
+    }
+}
+

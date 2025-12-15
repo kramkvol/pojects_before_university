@@ -1,0 +1,63 @@
+using System;
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double a=0;
+            double x;
+            double y;
+            const double E = Math.E;
+            Console.WriteLine(" введите X: ");
+            x = double.Parse(Console.ReadLine());
+            Console.WriteLine(" введите Y: ");
+            y = double.Parse(Console.ReadLine());
+
+            Console.WriteLine(" Выберите номер функции: ");
+            Console.WriteLine(" 1) Math.Sinh(x) ");
+            Console.WriteLine(" 2) Math.Pow(x, 2); ");
+            Console.WriteLine(" 3) Math.Pow(E, 2); ");
+
+            int num;
+        metka:
+            //num = int.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine(), out num);
+            switch (num)
+            {
+                case 1:
+                    a = Math.Sinh(x);
+                    Console.WriteLine(" Math.Sinh(x) = " + Math.Round(a, 3));
+                    break;
+                case 2:
+                    a = Math.Pow(x, 2);
+                    Console.WriteLine(" Math.Pow(x, 2) = " + Math.Round(a, 3));
+                    break;
+                case 3:
+                   a = Math.Pow(E, x);
+                    Console.WriteLine(" Math.Pow(E, 2) = " + Math.Round(a, 3));
+                    break;
+                default: Console.WriteLine("repeat enter"); goto metka;
+            }
+
+            if (Math.Abs(a) > 10)
+            {
+                double z = Math.Log(Math.Abs(a) + Math.Abs(y));
+                Console.WriteLine(" Math.Log(Math.Abs(a) + Math.Abs(y)) = " + Math.Round(z, 3));
+            }
+
+            if (Math.Abs(a) < 10)
+            {
+                double z = Math.Pow(Math.E, a + y);
+                Console.WriteLine(" Math.Pow(Math.E, a + y) = " + Math.Round(z, 3));
+            }
+
+            if (Math.Abs(a) == 10)
+            {
+                double z = Math.Pow(a, 1/3) + y;
+                Console.WriteLine(" Math.Pow(a, 1/3) + y = " + Math.Round(z, 3));
+            }
+            Console.ReadKey();
+        }
+    }
+}

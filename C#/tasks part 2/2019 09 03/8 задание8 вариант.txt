@@ -1,0 +1,31 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a;
+            Console.WriteLine("¬ведите число");
+            string str = Console.ReadLine();
+            a = Convert.ToInt32(str);
+            double Z1 = 1 - ((1.0 % 4.0) * Math.Pow(Math.Sin(2.0 * a), 2.0)) + Math.Cos(2.0 * a);
+            double Z2 = Math.Pow(Math.Cos(2.0 * a), 2.0) + Math.Pow(Math.Cos(2.0 * a), 4.0);
+
+            Console.WriteLine("Z2 = " + Math.Round(Z2, 3));
+            Console.WriteLine("Z1 = " + Math.Round(Z1, 3));
+       
+            if (Math.Abs(Z1-Z2)<0.00001)
+            {
+                Console.WriteLine("Z1 = Z2");
+            }
+            else
+            {
+                Console.WriteLine("Z1 != Z2");
+            }
+            Console.ReadKey();
+        }
+
+    }
+}

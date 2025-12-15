@@ -1,0 +1,67 @@
+using System;
+namespace zad1
+{
+    class Rectangle
+    {
+        public double AB;
+        public double BC;
+        public double CD;
+        public double AD;
+        public Rectangle()
+        {
+            AB = 0;
+            BC = 0;
+            CD = 0;
+            AD = 0;
+        }
+        public Rectangle(double AB_, double BC_, double CD_, double AD_)
+        {
+            AB = AB_;
+            BC = BC_;
+            CD = CD_;
+            AD = AD_;
+        }
+
+        public double Diagonal_length(double AB, double BC, double CD, double AD)
+        {
+            if (AB != CD | AD != BC)
+            {
+                throw new ArgumentException("Ёто не может быть пр€моугольником...");
+            }
+            else
+            {
+                double Diagonal = Math.Sqrt(Math.Pow(AD,2) * Math.Pow(AB, 2));
+                return Diagonal;
+            }
+        }
+        public bool is_square ()
+        {
+            if (AB == CD && AB == AD && AD == BC)
+            {
+                return true;
+            }
+            return false;
+        }
+        public string ToShortString()
+        {
+            return " »нформаци€ о фигуре: \n AB = " + AB + " CD = " + CD + "\n" + " AD = " + AD + " BC = " + BC
+                + "\n ƒиагональ: " + Diagonal_length(AB, BC, CD, AD);
+        }
+        static void Main(string[] args)
+        {
+            Rectangle a1 = new Rectangle();
+            try
+            {
+                a1.AB = 5;
+                a1.BC = 5;
+                a1.CD = 5;
+                a1.AD = 5;
+                Console.WriteLine(a1.ToShortString());
+            }
+            catch (DivideByZeroException v) { Console.WriteLine(v.Message); }
+            catch (ArgumentException v) { Console.WriteLine(v.Message); }
+            Console.WriteLine(" явл€етс€ ли фигура квадратом: " + a1.is_square());
+            Console.ReadKey();
+        }
+    }
+}

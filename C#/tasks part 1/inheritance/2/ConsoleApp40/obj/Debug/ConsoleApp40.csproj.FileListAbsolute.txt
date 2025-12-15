@@ -1,0 +1,21 @@
+C:\Users\olya\source\repos\ConsoleApp40\ConsoleApp40\bin\Debug\ConsoleApp40.exe.config
+C:\Users\olya\source\repos\ConsoleApp40\ConsoleApp40\bin\Debug\ConsoleApp40.exe
+C:\Users\olya\source\repos\ConsoleApp40\ConsoleApp40\bin\Debug\ConsoleApp40.pdb
+C:\Users\olya\source\repos\ConsoleApp40\ConsoleApp40\obj\Debug\ConsoleApp40.csprojAssemblyReference.cache
+C:\Users\olya\source\repos\ConsoleApp40\ConsoleApp40\obj\Debug\ConsoleApp40.csproj.CoreCompileInputs.cache
+C:\Users\olya\source\repos\ConsoleApp40\ConsoleApp40\obj\Debug\ConsoleApp40.exe
+C:\Users\olya\source\repos\ConsoleApp40\ConsoleApp40\obj\Debug\ConsoleApp40.pdb
+C:\Users\olya\Desktop\ConsoleApp40\ConsoleApp40\bin\Debug\ConsoleApp40.exe.config
+C:\Users\olya\Desktop\ConsoleApp40\ConsoleApp40\bin\Debug\ConsoleApp40.exe
+C:\Users\olya\Desktop\ConsoleApp40\ConsoleApp40\bin\Debug\ConsoleApp40.pdb
+C:\Users\olya\Desktop\ConsoleApp40\ConsoleApp40\obj\Debug\ConsoleApp40.csprojAssemblyReference.cache
+C:\Users\olya\Desktop\ConsoleApp40\ConsoleApp40\obj\Debug\ConsoleApp40.csproj.CoreCompileInputs.cache
+C:\Users\olya\Desktop\ConsoleApp40\ConsoleApp40\obj\Debug\ConsoleApp40.exe
+C:\Users\olya\Desktop\ConsoleApp40\ConsoleApp40\obj\Debug\ConsoleApp40.pdb
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\Кремко наследование (сдать))\ConsoleApp40\bin\Debug\ConsoleApp40.exe.config
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\Кремко наследование (сдать))\ConsoleApp40\bin\Debug\ConsoleApp40.exe
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\Кремко наследование (сдать))\ConsoleApp40\bin\Debug\ConsoleApp40.pdb
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\Кремко наследование (сдать))\ConsoleApp40\obj\Debug\ConsoleApp40.csprojAssemblyReference.cache
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\Кремко наследование (сдать))\ConsoleApp40\obj\Debug\ConsoleApp40.csproj.CoreCompileInputs.cache
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\Кремко наследование (сдать))\ConsoleApp40\obj\Debug\ConsoleApp40.exe
+C:\предметы\КПиЯП\Кремко Т-792 кпияп\Кремко наследование (сдать))\ConsoleApp40\obj\Debug\ConsoleApp40.pdb

@@ -1,0 +1,71 @@
+using System;
+
+namespace ConsoleApp18
+{
+    class Program
+    {
+        static int r, c;
+        static int sum, sum1, sum2, sub;
+        static int row = 4;
+        static int column = 20;
+        static int[,] a = new int[row, column];
+        static void PrintArr()
+        {
+            Random rand = new Random();
+            for (r = 0; r < row; r++)
+            {
+                for (c = 0; c < column; c++)
+                {
+                    a[r, c] = rand.Next(1, 9 );
+                    Console.Write(" " + a[r, c]); 
+                }
+                Console.WriteLine();
+            }
+        }
+        static int SumRow(int r, int[,]a)
+        {
+            {
+                sum = 0;
+                for (c = 0; c < a.GetLength(1); c++)
+                {
+                    sum += a[r, c];
+                }
+                return sum;
+            }
+        }
+        static void SumRowP ()
+        {
+            int s0= SumRow(0,a);
+            int s2 = SumRow(2, a);
+            sum1 = s0 + s2;
+            Console.WriteLine(sum1);
+        }
+
+        static void SumRowN()
+        {
+            int s1 = SumRow(1, a);
+            int s3 = SumRow(3, a);
+            sum2 = s1 + s3;
+            Console.WriteLine(sum2);
+        }
+        static void Sub()
+        {
+            int s1 = SumRow(1, a);
+            int s3 = SumRow(3, a);
+            sub = sum1 - sum2;
+            Console.WriteLine(sub);
+        }
+        static void Main(string[] args)
+        {
+            PrintArr();
+            Console.WriteLine("Сумма между четными: ");
+            SumRowP();
+            Console.WriteLine("Сумма между нечетными: ");
+            SumRowN();
+            Console.WriteLine("Разность: ");
+            Sub();
+
+            Console.ReadKey();
+        }
+    }
+}

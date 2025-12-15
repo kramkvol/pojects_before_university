@@ -1,0 +1,59 @@
+using System;
+
+namespace ConsoleApp13
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] a = new int[] { 10, 11, 12, 15, 17, 25, 23, 33 };
+            int[] b = new int[] { 10, 13, 15, 17, 25, 29, 27, 24};
+            int i = 0;
+
+            Console.WriteLine("Массив А: ");
+            for (i = 0; i < a.Length; i++)
+            {
+                Console.Write(" " + a[i]);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Массив Б: ");
+            for (i = 0; i < b.Length; i++)
+            {
+                Console.Write(" " + b[i]);
+            }
+            Console.WriteLine();
+            Console.WriteLine("Не повторяющиеся элементы: ");
+            int[] c = new int[a.Length+b.Length];
+            int k = 0;//index of c: c[k]
+            int count = 0;//repeat's count
+            for (i = 0; i < a.Length; i++)
+            {
+                count = 0;
+                for (int j=0;j<b.Length;j++)
+                if (a[i] == b[j])
+                {
+                        count++;
+                }
+                if (count == 0) { c[k] = a[i]; k++; }   
+
+            }
+            int[] c1 = new int[a.Length + b.Length];
+            for (i = 0; i < b.Length; i++)
+            {
+                count = 0;
+                for (int j = 0; j < a.Length; j++)
+                    if (b[i] == a[j])
+                    {
+                        count++;
+                    }
+                if (count == 0) { c[k] = b[i]; k++; } 
+
+            }
+            Console.WriteLine();
+            for(i=0;i<k;i++)
+            Console.Write(" " + c[i]);
+            Console.WriteLine();
+            Console.ReadKey();
+        }
+    }
+}

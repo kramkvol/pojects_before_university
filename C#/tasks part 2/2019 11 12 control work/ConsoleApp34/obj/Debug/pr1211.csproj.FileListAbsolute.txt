@@ -1,0 +1,28 @@
+C:\Users\olya\source\repos\ConsoleApp34\ConsoleApp34\bin\Debug\ConsoleApp34.exe.config
+C:\Users\olya\source\repos\ConsoleApp34\ConsoleApp34\bin\Debug\ConsoleApp34.exe
+C:\Users\olya\source\repos\ConsoleApp34\ConsoleApp34\bin\Debug\ConsoleApp34.pdb
+C:\Users\olya\source\repos\ConsoleApp34\ConsoleApp34\obj\Debug\pr1211.csprojAssemblyReference.cache
+C:\Users\olya\source\repos\ConsoleApp34\ConsoleApp34\obj\Debug\pr1211.csproj.CoreCompileInputs.cache
+C:\Users\olya\source\repos\ConsoleApp34\ConsoleApp34\obj\Debug\ConsoleApp34.exe
+C:\Users\olya\source\repos\ConsoleApp34\ConsoleApp34\obj\Debug\ConsoleApp34.pdb
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР +\ConsoleApp34\bin\Debug\ConsoleApp34.exe.config
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР +\ConsoleApp34\bin\Debug\ConsoleApp34.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР +\ConsoleApp34\bin\Debug\ConsoleApp34.pdb
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР +\ConsoleApp34\obj\Debug\pr1211.csprojAssemblyReference.cache
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР +\ConsoleApp34\obj\Debug\pr1211.csproj.CoreCompileInputs.cache
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР +\ConsoleApp34\obj\Debug\ConsoleApp34.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР +\ConsoleApp34\obj\Debug\ConsoleApp34.pdb
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  ДОДЕЛАТЬ\ConsoleApp34\bin\Debug\ConsoleApp34.exe.config
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  ДОДЕЛАТЬ\ConsoleApp34\bin\Debug\ConsoleApp34.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  ДОДЕЛАТЬ\ConsoleApp34\bin\Debug\ConsoleApp34.pdb
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  ДОДЕЛАТЬ\ConsoleApp34\obj\Debug\pr1211.csprojAssemblyReference.cache
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  ДОДЕЛАТЬ\ConsoleApp34\obj\Debug\pr1211.csproj.CoreCompileInputs.cache
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  ДОДЕЛАТЬ\ConsoleApp34\obj\Debug\ConsoleApp34.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  ДОДЕЛАТЬ\ConsoleApp34\obj\Debug\ConsoleApp34.pdb
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  +\ConsoleApp34\bin\Debug\ConsoleApp34.exe.config
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  +\ConsoleApp34\bin\Debug\ConsoleApp34.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  +\ConsoleApp34\bin\Debug\ConsoleApp34.pdb
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  +\ConsoleApp34\obj\Debug\pr1211.csprojAssemblyReference.cache
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  +\ConsoleApp34\obj\Debug\pr1211.csproj.CoreCompileInputs.cache
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  +\ConsoleApp34\obj\Debug\ConsoleApp34.exe
+C:\предметы\ПРАКТИКА\Кремко Ольга т-792\2019 11 12 КР  +\ConsoleApp34\obj\Debug\ConsoleApp34.pdb

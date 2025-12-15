@@ -1,0 +1,31 @@
+using System;
+namespace ConsoleApp7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string buf;
+            Console.WriteLine(" Введите количество первых двухзначных N числел: ");
+            buf = Console.ReadLine();
+            int n = Convert.ToInt32(buf);
+            int a = 0;
+            int sum = 0;
+            Console.WriteLine(" Введите " + n + " двухзначных чисел: ");
+            for (int i = 0; i < n; i++)
+            {
+                string num;
+                num = Console.ReadLine();
+                a = Convert.ToInt32(num);
+                if (a%5 == 0)
+                sum += a;
+            }
+
+            Console.WriteLine("Сумма двузначных числел кратных пяти: " + sum);
+            Console.ReadKey();
+        }
+    }
+}
+
+PS я сделала через for, потому что это задание противоречит само себе: как можно 
+выполнить сложение N 5-ТИ КРАТНЫХ ЧИСЛЕЛ, не проверив первое число на кратность 5?..

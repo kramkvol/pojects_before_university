@@ -1,0 +1,41 @@
+using System;
+using System.IO;
+namespace ConsoleApp36
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine(" ¬ведите n: ");
+            string n_buf = Console.ReadLine();
+            int n = Convert.ToInt32(n_buf);
+            Console.WriteLine(" ¬ведите k: ");
+            string k_buf = Console.ReadLine();
+            int k = Convert.ToInt32(k_buf);
+            using (BinaryWriter text = new BinaryWriter(new FileStream("nums.txt", FileMode.Create, FileAccess.Write)))
+            {
+                int[] num = new int[n];
+                byte[] num2 = new byte[n];
+                Console.WriteLine(" ¬ведите " + n + " целых чисел: ");
+                for (int i = 0; i < n; i++)
+                {
+                    string num_buf = Console.ReadLine();
+                    num[i] = Convert.ToInt32(num_buf);
+                    if (num[i] % k != 0)
+                    {
+                        text.Write(num[i]);
+                    }
+                }
+            }
+            Console.WriteLine("„исла, не кратные " + k);
+            using (BinaryReader text = new BinaryReader(new FileStream("nums.txt", FileMode.Open, FileAccess.Read)))
+            {
+                while (text.PeekChar ()> -1)
+                {
+                    Console.WriteLine(text.ReadInt32());
+                }
+            }
+            Console.ReadKey();
+        }
+    }
+}

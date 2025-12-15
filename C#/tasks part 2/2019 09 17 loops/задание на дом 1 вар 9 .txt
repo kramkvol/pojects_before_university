@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random rand = new Random();
+            int n = rand.Next(12456, 98765);
+            int sum = 0;
+            Console.WriteLine("Число: " + n);
+            while (n != 0)
+            {
+                if (n % 2 != 0)
+                {
+                    sum += n % 10;
+                }
+                n /= 10;
+            }
+            Console.WriteLine("Сумма нечетных равна: " + sum);
+
+            Console.ReadKey();
+        }
+    }
+}

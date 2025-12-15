@@ -1,0 +1,97 @@
+D:\Olya\!4 курс !\БД\Салон\Салон\bin\Debug\Салон.exe.config
+D:\Olya\!4 курс !\БД\Салон\Салон\bin\Debug\Салон.exe
+D:\Olya\!4 курс !\БД\Салон\Салон\bin\Debug\Салон.pdb
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.csprojAssemblyReference.cache
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.Enter.resources
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.Properties.Resources.resources
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.csproj.GenerateResource.cache
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.csproj.CoreCompileInputs.cache
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.exe
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.pdb
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.Menu.resources
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.Запись.resources
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.Клиент.resources
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.Мастер.resources
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.Услуги.resources
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.Чек.resources
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.Мастер_расписание.resources
+D:\Olya\!4 курс !\БД\Салон\Салон\obj\Debug\Салон.Печать_чека.resources
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Салон.exe.config
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Салон.exe
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Салон.pdb
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.Enter.resources
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.Menu.resources
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.Properties.Resources.resources
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.Клиент.resources
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.Мастер.resources
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.Мастер_расписание.resources
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.Печать_чека.resources
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.Услуги.resources
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.csproj.GenerateResource.cache
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.csproj.CoreCompileInputs.cache
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.exe
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.pdb
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.Занятость.resources
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.Отчеты.resources
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.csproj.CopyComplete
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\EnvDTE.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\stdole.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\Microsoft.MSXML.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\RdlCompile.cache
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\RdlCompile.compiled
+C:\Users\n2\Desktop\Салон\Салон\obj\Debug\Салон.csprojAssemblyReference.cache

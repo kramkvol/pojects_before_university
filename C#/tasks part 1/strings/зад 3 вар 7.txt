@@ -1,0 +1,24 @@
+using System;
+namespace ConsoleApp32
+{
+    class Program
+    {
+        static int proverka (string s, string s0)
+        {
+            int temp = 0;
+            while (s.Contains(s0) == true)
+            {
+                temp++;
+                s = s.Remove(s.IndexOf(s0),s0.Length);
+            }
+            return temp;
+        }
+        static void Main(string[] args)
+        {
+            string s = " какая-то строка ";
+            string s0 = "ка";
+            Console.WriteLine(proverka(s, s0));
+            Console.ReadKey();
+        }
+    }
+}

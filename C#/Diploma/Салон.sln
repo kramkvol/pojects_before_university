@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Салон", "Салон\Салон.csproj", "{F1915E05-D310-4F15-9DEA-7DE9EE1AC93A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D74FB29F-02E6-4AEE-964C-20995F5835C8}"
+	ProjectSection(SolutionItems) = preProject
+		..\Новая папка (7)\Салон\Салон\Печать чека.cs = ..\Новая папка (7)\Салон\Салон\Печать чека.cs
+		..\Новая папка (7)\Салон\Салон\Печать чека.Designer.cs = ..\Новая папка (7)\Салон\Салон\Печать чека.Designer.cs
+		..\Новая папка (7)\Салон\Салон\Печать чека.resx = ..\Новая папка (7)\Салон\Салон\Печать чека.resx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1915E05-D310-4F15-9DEA-7DE9EE1AC93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1915E05-D310-4F15-9DEA-7DE9EE1AC93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1915E05-D310-4F15-9DEA-7DE9EE1AC93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1915E05-D310-4F15-9DEA-7DE9EE1AC93A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10366230-12D5-443B-998D-8959091899AD}
+	EndGlobalSection
+EndGlobal
