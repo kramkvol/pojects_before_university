@@ -6,11 +6,10 @@ This collection contains my first projects :)
 # Folder C#
 During 2019–2021, I worked on college assignments, developed several pet projects, and completed my final thesis using C#
 
-## Folders:
-Diploma - thesis
-pet - my projects
-tasks part 1 - college tasks
-tasks part 2 - college tasks
+- Diploma - thesis
+- pet - my projects
+- tasks part 1 - college tasks
+- tasks part 2 - college tasks
 
 ## Diploma 
 C# + WinForms + MS SQL Server
